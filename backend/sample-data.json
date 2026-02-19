@@ -47,5 +47,37 @@
     "cooked": 140,
     "consumed": 126,
     "date": "2026-02-19T00:00:00.000Z"
-  }
+  },
+  "ngoExamples": [
+    {
+      "kitchenId": "kitchen-nyc-001",
+      "name": "City Harvest Outreach",
+      "contactPerson": "Maya Collins",
+      "phone": "+1-212-555-1901",
+      "email": "pickup@cityharvest.org",
+      "address": "150 W 30th St, New York, NY",
+      "acceptedFoodTypes": ["Cooked Meals", "Packaged Meals"],
+      "pickupAvailable": true,
+      "operatingHours": "08:00 - 20:00",
+      "location": {
+        "type": "Point",
+        "coordinates": [-73.9942, 40.7484]
+      }
+    },
+    {
+      "kitchenId": "kitchen-nyc-001",
+      "name": "Hope Meal Bank",
+      "contactPerson": "Daniel Rivera",
+      "phone": "+1-212-555-1033",
+      "email": "donations@hopemealbank.org",
+      "address": "280 Madison Ave, New York, NY",
+      "acceptedFoodTypes": ["Dry Rations", "Fresh Produce", "Cooked Meals"],
+      "pickupAvailable": false,
+      "operatingHours": "09:00 - 18:00",
+      "location": {
+        "type": "Point",
+        "coordinates": [-73.9816, 40.7527]
+      }
+    }
+  ]
 }

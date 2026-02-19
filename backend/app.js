@@ -8,6 +8,7 @@ const inventoryRoutes = require('./routes/inventoryRoutes');
 const consumptionRoutes = require('./routes/consumptionRoutes');
 const analyticsRoutes = require('./routes/analyticsRoutes');
 const imageRoutes = require('./routes/imageRoutes');
+const donationRoutes = require('./routes/donationRoutes');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
@@ -30,8 +31,8 @@ app.use('/api/inventory', inventoryRoutes);
 app.use('/api/consumption', consumptionRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api', imageRoutes);
+app.use('/api/donations', donationRoutes);
 
 app.use(errorHandler);
 
 module.exports = app;
-

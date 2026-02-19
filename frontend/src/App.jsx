@@ -7,6 +7,7 @@ import InventoryPage from './pages/InventoryPage';
 import AnalyticsPage from './pages/AnalyticsPage';
 import ImageUploadPage from './pages/ImageUploadPage';
 import ConsumptionForm from './pages/ConsumptionForm';
+import DonationLocatorPage from './pages/DonationLocatorPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/consumption" element={<ConsumptionForm />} />
         <Route path="/expiry" element={<ImageUploadPage />} />
+        <Route path="/donations" element={<DonationLocatorPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>

@@ -7,7 +7,8 @@ const navItems = [
   { path: '/inventory', label: 'Inventory' },
   { path: '/analytics', label: 'Analytics' },
   { path: '/consumption', label: 'Consumption' },
-  { path: '/expiry', label: 'Expiry Check' }
+  { path: '/expiry', label: 'Expiry Check' },
+  { path: '/donations', label: 'Donation Locator' }
 ];
 
 function Layout({ children }) {
