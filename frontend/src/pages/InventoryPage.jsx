@@ -36,7 +36,7 @@ function InventoryPage() {
         <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Ingredient Name" />
         <input type="number" value={form.stockQuantity} onChange={(e) => setForm({ ...form, stockQuantity: e.target.value })} placeholder="Stock" />
         <input value={form.unit} onChange={(e) => setForm({ ...form, unit: e.target.value })} placeholder="Unit" />
-        <input type="number" value={form.reorderLevel} onChange={(e) => setForm({ ...form, reorderLevel: e.target.value })} placeholder="Reorder Level" />
+        <input type="number" value={form.reorderLevel} onChange={(e) => setForm({ ...form, reorderLevel: e.target.value })} placeholder="Low-stock alert at" />
         <button type="submit">Add Ingredient</button>
       </form>
 
