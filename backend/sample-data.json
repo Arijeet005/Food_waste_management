@@ -1,0 +1,51 @@
+{
+  "kitchenId": "kitchen-nyc-001",
+  "predictDemandExample": {
+    "pastConsumption": [120, 130, 115, 140, 125, 132, 138],
+    "dayOfWeek": "Friday",
+    "expectedPeople": 145,
+    "events": ["Founders Day"],
+    "weather": "Rainy"
+  },
+  "eventAdjustmentExample": {
+    "kitchenId": "kitchen-nyc-001",
+    "name": "Founders Day",
+    "date": "2026-03-15T00:00:00.000Z",
+    "holidayFlag": true,
+    "specialDemandMultiplier": 1.25,
+    "notes": "Annual company celebration"
+  },
+  "ingredientExample": {
+    "kitchenId": "kitchen-nyc-001",
+    "name": "Rice",
+    "stockQuantity": 85,
+    "unit": "kg",
+    "reorderLevel": 20
+  },
+  "dishExample": {
+    "kitchenId": "kitchen-nyc-001",
+    "name": "Vegetable Pulao",
+    "ingredients": [
+      {
+        "ingredientId": "65f0ca58e91829d2e1f9a111",
+        "name": "Rice",
+        "amountPerMeal": 0.18,
+        "unit": "kg"
+      },
+      {
+        "ingredientId": "65f0ca58e91829d2e1f9a222",
+        "name": "Mixed Vegetables",
+        "amountPerMeal": 0.12,
+        "unit": "kg"
+      }
+    ],
+    "quantityPerPerson": 1
+  },
+  "consumptionLogExample": {
+    "kitchenId": "kitchen-nyc-001",
+    "dishId": "65f0ca58e91829d2e1f9b333",
+    "cooked": 140,
+    "consumed": 126,
+    "date": "2026-02-19T00:00:00.000Z"
+  }
+}
